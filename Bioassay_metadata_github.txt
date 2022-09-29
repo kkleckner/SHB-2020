@@ -1,0 +1,39 @@
+This is the metadata for Bioassay_data_github.csv
+
+For each column:
+
+Header | Description
+
+
+Round | Round number. Bioassays performed on the same day. 
+        Only data from one round was used for calculating LC50 values for each compound.
+
+Analysis | Denotes if data was used in the calcultion of LC50 or not. Y - yes; N - no
+
+Date | Calendar date bioassays were started and compounds were administered.
+
+Treatment | Treatment group of experimental cage. "Negative" denotes negative control 
+            where nothing was added to the pollen.
+
+Solution_ug_ul | Concentration of solution mixed into 0.1 g pollen ball. 
+                 Micrograms of compound diluted in microliters of acetone.
+
+Solid_ug_g | Amount of compound in solid 0.1 g pollen ball.
+             Micrograms of compound in grams of pollen ball.
+
+Replicate | Replicate number. Each replicate constituted a single experimental cage.
+
+Treated | Number of adult small hive beetles (SHBs) treated inside each replicate/experimental cage.
+
+4hr_Mort | Total number of adult SHBs dead at 4 hours post compound application.
+
+24hr_Mort | Total number of adult SHBs dead at 24 hours post compound application. 
+                 Includes SHBs dead at 4 hour check.
+
+48hr_Mort | Total number of adult SHBs dead at 48 hours post compound application. 
+                 Includes SHBs dead at 4 and 24 hour checks.
+
+72hr_Mort | Total number of adult SHBs dead at 72 hours post compound application. 
+                 Includes SHBs dead at 4, 24, and 48 hour checks.
+
+Notes | Additonal comments on data.
