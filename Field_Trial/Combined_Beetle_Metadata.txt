@@ -1,1 +1,19 @@
-#Metadata
+This is the metadata for Combined_Beetle_Data.csv
+The data set and all other files can be found at https://github.com/kkleckner/SHB-2020
+
+A single row represents 1 hive with 2 boxes (each with a trap) in the pilot study.
+
+
+For each column:
+
+Header | Description
+
+Treatment | Compound mixed into pollen and adminsitered to hives
+            Acetone - Negative control; Acetamiprid; Fipronil - Positive control
+
+Live_Dead | Type of beetles collected from hive after two week treatment period
+            Live - live beetles aspirated from hive
+            Dead - dead beetles collected from inside traps
+
+Count | Number of beetles (either live or dead) collected after two week treament period
+
