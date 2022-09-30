@@ -1,4 +1,5 @@
 This is the metadata for Bioassay_data_github.csv
+The data set and all other files can be found at https://github.com/kkleckner/SHB-2020
 
 For each column:
 
