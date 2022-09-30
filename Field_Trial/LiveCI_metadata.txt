@@ -1,0 +1,18 @@
+This is the metadata for LiveCI.csv
+The data set and all other files can be found at https://github.com/kkleckner/SHB-2020
+
+For each column:
+
+Header | Description
+
+Treatment | Compound mixed into pollen and adminsitered to hives in CD traps
+            Acetone - Negative control; Acetamiprid; Fipronil - Positive control
+
+LiveMean | Average number of live beetles aspirated for 5 hives in treatment group
+           Beetles collected after two week treatment period
+
+Lower | Lower bound of 95% confidence interval 
+        Calculated by emmeans and with negative binomial distribution
+
+Upper | Upper bound of 95% confidence interval
+        Calculated by emmeans and with negative binomial distribution
