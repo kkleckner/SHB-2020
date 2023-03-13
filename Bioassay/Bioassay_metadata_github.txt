@@ -1,30 +1,30 @@
 This is the metadata for Bioassay_data_github.csv
-The data set and all other files can be found at https://github.com/kkleckner/SHB-2020
 
 For each column:
 
 Header | Description
 
 
-Round | Round number. Bioassays performed on the same day. 
+Round | Round number (1-8). Bioassays were performed on the same day. 
         Only data from one round was used for calculating LC50 values for each compound.
 
-Analysis | Denotes if data was used in the calcultion of LC50 or not. Y - yes; N - no
+Analysis | Denotes if data was used in the calculation of LC50 or not. Y - yes; N - no
 
 Date | Calendar date bioassays were started and compounds were administered.
 
-Treatment | Treatment group of experimental cage. "Negative" denotes negative control 
+Treatment | Treatment group of the experimental cage. "Negative" denotes negative control 
             where nothing was added to the pollen.
 
-Solution_ug_ul | Concentration of solution mixed into 0.1 g pollen ball. 
+Solution_ug_ul | Concentration of solution mixed into 1.0 g pollen ball. 
                  Micrograms of compound diluted in microliters of acetone.
 
-Solid_ug_g | Amount of compound in solid 0.1 g pollen ball.
-             Micrograms of compound in grams of pollen ball.
+Solid_ug_g | Amount of compound in solid 1.0 g pollen ball.
+             Micrograms of the compound in grams of pollen ball.
 
 Replicate | Replicate number. Each replicate constituted a single experimental cage.
 
-Treated | Number of adult small hive beetles (SHBs) treated inside each replicate/experimental cage.
+Treated | Number of adult small hive beetles (SHBs) treated inside each replicate/
+	  experimental cage.
 
 4hr_Mort | Total number of adult SHBs dead at 4 hours post compound application.
 
@@ -37,4 +37,5 @@ Treated | Number of adult small hive beetles (SHBs) treated inside each replicat
 72hr_Mort | Total number of adult SHBs dead at 72 hours post compound application. 
                  Includes SHBs dead at 4, 24, and 48 hour checks.
 
-Notes | Additonal comments on data.
+Notes | Additional comments on data, such as the addition of sugar to the pollen ball
+	(only done in piloting).
